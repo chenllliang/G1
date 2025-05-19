@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gymnasium_2048"
+version = "0.0.2"
+authors = [
+    { name = "Quentin Deschamps", email = "quentindeschamps18@gmail.com" },
+]
+description = "A reinforcement learning environment for the 2048 game based on Gymnasium"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["2048", "Reinforcement Learning", "game", "RL", "AI", "gymnasium", "pygame"]
+license = { text = "MIT" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+
+[project.optional-dependencies]
+training = [
+    "matplotlib==3.9.3",
+    "moviepy==2.1.1",
+    "pandas==2.2.3",
+    "pyarrow==18.1.0",
+    "tqdm==4.67.1",
+]
+testing = ["pytest"]
+quality = ["black[d]", "isort", "pylint"]
+
+[project.urls]
+Repository = "https://github.com/Quentin18/gymnasium-2048"
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+
+[tool.pep8]
+max-line-length = "88"
+
+[tool.pylint."MESSAGES CONTROL"]
+max-line-length = 88
+disable = [
+    "attribute-defined-outside-init",
+    "duplicate-code",
+    "inconsistent-return-statements",
+    "invalid-name",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "missing-module-docstring",
+    "no-member",
+    "too-many-arguments",
+    "too-many-instance-attributes",
+    "too-many-locals",
+    "too-many-positional-arguments",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra"
+filterwarnings = ["ignore::DeprecationWarning:pygame.*:"]

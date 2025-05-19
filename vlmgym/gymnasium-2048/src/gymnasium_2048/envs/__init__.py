@@ -1,0 +1,1 @@
+from gymnasium_2048.envs.twenty_forty_eight import TwentyFortyEightEnv

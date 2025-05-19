@@ -1,0 +1,10 @@
+# python
+__pycache__/
+*.pyc
+*.egginfo
+
+# mp4
+*.mp4
+
+
+
