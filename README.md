@@ -8,17 +8,17 @@ Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vi
 
 
 <p align="center">
-
-
 <img src="assets/image.png" />
 </p>
 
-<br>
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <video src="assets/2048.mp4" width="45%" controls></video>
-  <video src="assets/shisensho.mp4" width="45%" controls></video>
-</div>
+
+
+
+
+
+
+
 
 <br>
 
