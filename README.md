@@ -15,7 +15,9 @@ Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vi
 
 
 
-https://github.com/user-attachments/assets/37d9fd97-911c-461f-ac89-88afc35f6bcc
+
+https://github.com/user-attachments/assets/0417d12b-5668-4d8c-9c50-ea0de139c93d
+
 
 
 
