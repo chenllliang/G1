@@ -1,6 +1,11 @@
 # G1
 
-Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning
+
+Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning. This repository includes:
+
+- [VLM-Gym](#run-parallel-enviroment-in-vlm-gym): A parallel environment for evaluating Vision-Language Models on interactive tasks
+- [Gaming RL Training](#rl-training-using-vlm-gym): Implementation of reinforcement learning for training G0 and G1 models.
+
 
 <p align="center">
 
@@ -8,16 +13,24 @@ Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vi
 <img src="assets/image.png" />
 </p>
 
+<br>
 
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <video src="https://github.com/user-attachments/assets/86038b9e-9f78-44f9-b859-82405c0c776e" width="45%" controls></video>
+  <video src="https://github.com/user-attachments/assets/19833ca3-ce79-4bf8-ba1c-46b93e1fd1e8" width="45%" controls></video>
+</div>
 
-https://github.com/user-attachments/assets/86038b9e-9f78-44f9-b859-82405c0c776e
+<br>
 
+<p align="center">
+<i>Features of VLM-Gym</i><br>
+<img src="assets/vlmgym.png" />
+</p>
 
-
-
-https://github.com/user-attachments/assets/19833ca3-ce79-4bf8-ba1c-46b93e1fd1e8
-
-
+<p align="center">
+<i>RL training curves of G0 and G1 models on different games.</i><br>
+<img src="assets/curves.png" />
+</p>
 
 ## Setup 
 ```
