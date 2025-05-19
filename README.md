@@ -9,6 +9,16 @@ Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vi
 </p>
 
 
+
+https://github.com/user-attachments/assets/86038b9e-9f78-44f9-b859-82405c0c776e
+
+
+
+
+https://github.com/user-attachments/assets/19833ca3-ce79-4bf8-ba1c-46b93e1fd1e8
+
+
+
 ## Setup 
 ```
 conda create -n vlmgym python=3.10
