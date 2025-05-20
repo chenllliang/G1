@@ -40,14 +40,14 @@ https://github.com/user-attachments/assets/0417d12b-5668-4d8c-9c50-ea0de139c93d
 <img src="assets/curves.png" />
 </p>
 
-## Setup 
+## ⚙️ Setup 
 ```
 conda create -n vlmgym python=3.10
 conda activate vlmgym
 bash setup.sh
 ```
 
-## Run Parallel Enviroment in VLM-Gym
+## 🏃 Run Parallel Enviroment in VLM-Gym
 
 We provide the evaluation scripts of 4 games using a random policy under `./vlmgym/test`. The 2048 enviroment is based on [gymnasium-2048](https://github.com/Quentin18/gymnasium-2048).
 
@@ -67,12 +67,12 @@ It is easy to evaluate different models by implementing the ```custom_policy``` 
 <img src="assets/test_2048.png" width="50%"  />
 </p>
 
-## Customize Difficulties in VLM-Gym
+## 📄 Customize Difficulties in VLM-Gym
 
 The game config are in ```./vlmgym/sandbox/games/```, for example, you can alter the diffculties of Shisen-Sho game by changing the shape and color settings in ```./vlmgym/sandbox/games/gamematch.py```
 
 
-## RL Training using VLM-Gym
+## 🎯 RL Training using VLM-Gym
 
 We provide the RL scripts utilizing the VLM-Gym under `./training/scripts`. Our training is based on [EasyR1](https://github.com/hiyouga/EasyR1/).
 
@@ -90,7 +90,7 @@ All rollout histroy would be saved under the EasyR1 directory to watch the learn
 After training, you can serve the model using vLLM to conduct evaluations with VLM-Gym.
 
 
-## Citation
+## 📖 Citation
 
 If you find our work helpful, please kindly cite
 
