@@ -7,8 +7,8 @@
 
 Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning. This repository includes:
 
-- [VLM-Gym](#run-parallel-enviroment-in-vlm-gym): A parallel environment for training/evaluating Vision-Language Models on visual games
-- [Gaming RL Training](#rl-training-using-vlm-gym): Implementation of reinforcement learning for training G0 and G1 models.
+- VLM-Gym: A parallel environment for training/evaluating Vision-Language Models on visual games
+- Gaming RL Training: Implementation of reinforcement learning for training G0 and G1 models.
 
 
 <p align="center">
