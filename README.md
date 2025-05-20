@@ -1,4 +1,8 @@
-# G1
+<h1 align="center">G1</h1>
+
+<p align="center">
+<a href="https://arxiv.org/abs/2505.13426">
+<img alt="Static Badge" src="https://img.shields.io/badge/arXiv-2505.13426-red"></a>
 
 
 Source code for paper G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning. This repository includes:
@@ -90,7 +94,15 @@ After training, you can serve the model using vLLM to conduct evaluations with V
 
 If you find our work helpful, please kindly cite
 
-```
-coming soon
+```bib
+@misc{chen2025g1bootstrappingperceptionreasoning,
+      title={G1: Bootstrapping Perception and Reasoning Abilities of Vision-Language Model via Reinforcement Learning}, 
+      author={Liang Chen and Hongcheng Gao and Tianyu Liu and Zhiqi Huang and Flood Sung and Xinyu Zhou and Yuxin Wu and Baobao Chang},
+      year={2025},
+      eprint={2505.13426},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.13426}, 
+}
 ```
 
